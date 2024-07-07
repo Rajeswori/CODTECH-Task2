@@ -5,7 +5,9 @@
  **Duration:** 10th June-10 July 2024\
  **Mentor:** Muzammil
 
-*Project: Interactive Quiz Application*
+ ## OVERVIEW OF THE PROJECT
+
+**Project: Interactive Quiz Application**
 
 Welcome to my interactive quiz application, developed as a part of my project to enhance my skills in FRontend web development. This application is designed to provide an engaging and educational experience for users through a series of questions and interactive features.
 
