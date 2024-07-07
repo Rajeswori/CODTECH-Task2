@@ -1,0 +1,108 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background-color: #f9f9f9; 
+  background: url(f2.png)no-repeat;
+  background-size: contain;/* added a light gray background */
+}
+.all-quiz {
+  width: 500px;
+  background: transparent;
+  backdrop-filter: blur(60px);
+  box-shadow: 0 0 100px white;
+  border-radius: 10px;
+  margin-left: 700px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30vh;
+
+  
+}
+
+.quiz-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  margin-top: 40vh;
+  justify-content: center;
+  align-items: center; 
+  height: 300px;
+  color: #243455;
+  font-weight: bolder;/* added a white background */
+}
+
+/* Question Styles */
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold; /* added bold font weight */
+}
+
+
+/* Options Styles */
+
+.options {
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option {
+  background-color: #eaa21d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+
+.option:hover {
+  background-color: #7a42ce;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.option:active {
+  background-color: #2e6c31;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Result Styles */
+
+/* Responsive Design */
+
+@media (max-width: 480px) {
+  .quiz-container {
+     margin: 20px auto;
+     padding: 15px;
+   }
+  .option {
+     padding: 8px 15px;
+     width: 100%;
+     margin: 10px 0;
+   }
+ }
+/* Options Styles */
+
+
+/* Responsive Design */
