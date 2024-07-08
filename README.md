@@ -3,7 +3,7 @@
  **ID:** CT08DS1678\
  **Domian:** Frontend Web Development\
  **Duration:** 10th June-10 July 2024\
- **Mentor:** Muzammil
+ **Mentor:** Muzammil Sir
 
  ## OVERVIEW OF THE PROJECT
 
